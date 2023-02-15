@@ -1,9 +1,4 @@
-const express = require("express");
-const http = require("http");
-const socketIO = require("socket.io");
-const app = express();
-const server = http.createServer(app);
-const io = socketIO(server);
+
 
 // Middleware to parse request bodies as JSON
 app.use(express.json());
@@ -41,6 +36,6 @@ io.on("connection", (socket) => {
 
 
 // Start the server
-server.listen(3000, () => {
+server.listen(8000, () => {
   console.log("Server started on port 3000");
 });

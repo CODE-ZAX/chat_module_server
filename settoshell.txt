@@ -1,0 +1,1 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Muhammad Faraz\Documents\GitHub\chat_module_server\settings\dusecachatmodule-firebase-adminsdk-iv12y-3250ae0a11.json"
